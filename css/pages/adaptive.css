@@ -1,0 +1,152 @@
+@media (max-width: 980px) {
+  .hero,
+  .page-hero,
+  .contacts,
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero__visual {
+    order: -1;
+  }
+
+  .hero__image,
+  .page-hero__image {
+    width: min(520px, 100%);
+    margin: 0 auto;
+    justify-self: center;
+  }
+
+  .hero__title,
+  .page-hero__title,
+  .contacts__title {
+    max-width: 12ch;
+  }
+
+  .facts__grid,
+  .showcase__grid {
+    grid-template-columns: repeat(2, minmax(280px, 390px));
+    justify-content: center;
+  }
+
+  .catalog__grid,
+  .banana-card--large {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts__intro {
+    position: static;
+  }
+}
+
+@media (max-width: 760px) {
+  .header {
+    min-height: 74px;
+  }
+
+  .header__toggle {
+    position: relative;
+    z-index: 22;
+    display: block;
+  }
+
+  .header__nav {
+    position: fixed;
+    inset: 0;
+    z-index: 21;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 28px;
+    background: rgba(255, 253, 241, 0.94);
+    backdrop-filter: blur(18px);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-16px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  }
+
+  .header__nav--open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .header__link {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 54px 0;
+  }
+
+  .hero__title,
+  .page-hero__title,
+  .contacts__title {
+    font-size: clamp(3rem, 15vw, 4.4rem);
+  }
+
+  .facts__grid,
+  .showcase__grid {
+    grid-template-columns: minmax(0, 390px);
+    justify-content: center;
+  }
+
+  .facts__item {
+    min-height: auto;
+  }
+
+  .form__row {
+    grid-template-columns: 1fr;
+  }
+
+  .floaters__item--one {
+    top: 12%;
+    left: 5%;
+  }
+
+  .floaters__item--two {
+    right: 4%;
+    bottom: 42%;
+  }
+
+  .floaters__item--three {
+    display: none;
+  }
+
+  .footer {
+    display: grid;
+    gap: 16px;
+  }
+
+  .footer__socials {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --container: min(100% - 22px, 1160px);
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero__actions {
+    width: 100%;
+  }
+
+  .hero__bubble {
+    width: 56px;
+    height: 56px;
+  }
+
+  .contacts__link {
+    width: 100%;
+  }
+}
