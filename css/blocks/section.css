@@ -1,0 +1,31 @@
+.section {
+  width: var(--container);
+  margin: 0 auto;
+  padding: clamp(64px, 9vw, 116px) 0;
+}
+
+.section__header {
+  max-width: 720px;
+  margin-bottom: 34px;
+}
+
+.section__eyebrow {
+  margin: 0 0 12px;
+  color: var(--color-orange);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section__title {
+  margin: 0;
+  font-size: clamp(2.35rem, 6vw, 4.6rem);
+  line-height: 1;
+}
+
+.section__lead {
+  margin: 28px 0 0;
+  color: var(--color-brown-soft);
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+}
