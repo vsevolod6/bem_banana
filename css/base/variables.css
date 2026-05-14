@@ -1,0 +1,21 @@
+:root {
+  --color-cream: #ffff00;
+  --color-cream-strong: #fff7cc;
+  --color-yellow: #ffd84f;
+  --color-yellow-light: #fff39b;
+  --color-green: #a8cf58;
+  --color-green-deep: #2f8d55;
+  --color-orange: #ff7b55;
+  --color-brown: #35171b;
+  --color-brown-soft: #6d4141;
+  --color-white: #ffffff;
+  --glass: rgba(255, 255, 255, 0.58);
+  --glass-border: rgba(255, 255, 255, 0.82);
+  --shadow: 0 24px 70px rgba(53, 23, 27, 0.14);
+  --shadow-soft: 0 14px 34px rgba(53, 23, 27, 0.1);
+  --radius-small: 8px;
+  --radius-medium: 24px;
+  --radius-large: 38px;
+  --container: min(1160px, calc(100% - 32px));
+  --font-main: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif;
+}
