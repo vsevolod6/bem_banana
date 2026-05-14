@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты Banana Pixel Club: форма связи, email, телефон, соцсети и карта.">
+  <title>Banana Pixel Club | Контакты</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <div class="background" aria-hidden="true">
+    <span class="background__pixel background__pixel--one"></span>
+    <span class="background__pixel background__pixel--two"></span>
+    <span class="background__pixel background__pixel--three"></span>
+  </div>
+
+  <header class="header">
+    <a class="header__logo" href="index.html" aria-label="Banana Pixel Club">BANANA</a>
+    <nav class="header__nav" aria-label="Основная навигация">
+      <a class="header__link" href="index.html">Главная</a>
+      <a class="header__link" href="bananas.html">Виды</a>
+      <a class="header__link header__link--active" href="contacts.html">Контакты</a>
+    </nav>
+    <button class="header__toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="contacts section">
+      <div class="contacts__intro" data-animate>
+        <p class="section__eyebrow">Say banana</p>
+        <h1 class="contacts__title">Контакты</h1>
+        <p class="contacts__text">Пишите идеи, вопросы о сортах или предложения для фруктовой коллаборации. Отвечаем в будни с 10:00 до 18:00.</p>
+        <div class="contacts__list">
+          <a class="contacts__link" href="mailto:hello@banana-pixel.club">hello@banana-pixel.club</a>
+          <a class="contacts__link" href="tel:+74951234567">+7 495 123-45-67</a>
+          <span class="contacts__link">Москва, Тропический переулок, 7</span>
+        </div>
+        <div class="contacts__socials" aria-label="Социальные сети">
+          <a class="contacts__social" href="https://www.instagram.com/" target="_blank" rel="noreferrer">IG</a>
+          <a class="contacts__social" href="https://vk.com/" target="_blank" rel="noreferrer">VK</a>
+          <a class="contacts__social" href="https://t.me/" target="_blank" rel="noreferrer">TG</a>
+        </div>
+      </div>
+
+      <form class="form contacts__form glass-card" data-form data-animate>
+        <div class="form__group">
+          <label class="form__label" for="name">Имя</label>
+          <input class="form__input" id="name" name="name" type="text" placeholder="Анна Бананова" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="email">Email</label>
+          <input class="form__input" id="email" name="email" type="email" placeholder="anna@banana.club" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="topic">Тема</label>
+          <select class="form__input" id="topic" name="topic" required>
+            <option value="">Выберите тему</option>
+            <option value="sorts">Виды бананов</option>
+            <option value="design">Дизайн и партнерство</option>
+            <option value="event">Тропическое событие</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="message">Сообщение</label>
+          <textarea class="form__input form__textarea" id="message" name="message" placeholder="Расскажите, что вас интересует" required></textarea>
+        </div>
+        <button class="button button--primary" type="submit">Отправить</button>
+        <p class="form__status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__logo">BANANA</p>
+    <p class="footer__text">hello@banana-pixel.club · +7 495 123-45-67</p>
+    <div class="footer__socials" aria-label="Социальные сети">
+      <a class="footer__social" href="https://www.instagram.com/" target="_blank" rel="noreferrer">IG</a>
+      <a class="footer__social" href="https://vk.com/" target="_blank" rel="noreferrer">VK</a>
+      <a class="footer__social" href="https://t.me/" target="_blank" rel="noreferrer">TG</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

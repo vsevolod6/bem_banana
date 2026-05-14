@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Виды бананов: Cavendish, Red Banana, Plantain, Blue Java и мини-бананы.">
+  <title>Banana Pixel Club | Виды бананов</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <div class="background" aria-hidden="true">
+    <span class="background__pixel background__pixel--one"></span>
+    <span class="background__pixel background__pixel--two"></span>
+    <span class="background__pixel background__pixel--three"></span>
+  </div>
+
+  <header class="header">
+    <a class="header__logo" href="index.html" aria-label="Banana Pixel Club">BANANA</a>
+    <nav class="header__nav" aria-label="Основная навигация">
+      <a class="header__link" href="index.html">Главная</a>
+      <a class="header__link header__link--active" href="bananas.html">Виды</a>
+      <a class="header__link" href="contacts.html">Контакты</a>
+    </nav>
+    <button class="header__toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="page-hero section">
+      <div class="page-hero__content" data-animate>
+        <p class="section__eyebrow">Banana catalog</p>
+        <h1 class="page-hero__title">Виды бананов</h1>
+        <p class="page-hero__text">От привычного желтого Cavendish до зеленого Plantain и десертного Blue Java. Каждый сорт звучит по-своему в кухне и дизайне.</p>
+      </div>
+      <img class="page-hero__image" src="images/banana/banana-hero.svg" alt="Пиксельная связка бананов" data-animate data-parallax="0.025">
+    </section>
+
+    <section class="catalog section">
+      <div class="catalog__grid">
+        <article class="banana-card banana-card--large" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-cavendish.svg" alt="Банан Cavendish">
+          <div class="banana-card__body">
+            <p class="banana-card__tag">Самый узнаваемый</p>
+            <h2 class="banana-card__title">Cavendish</h2>
+            <p class="banana-card__text">Мягкий сладкий вкус, плотная кожура и предсказуемая текстура. Хорош в смузи, выпечке и быстрых перекусах.</p>
+            <p class="banana-card__fact">Факт: именно этот сорт чаще всего встречается на полках магазинов.</p>
+          </div>
+        </article>
+        <article class="banana-card banana-card--large" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-red.svg" alt="Красный банан">
+          <div class="banana-card__body">
+            <p class="banana-card__tag">Ягодный акцент</p>
+            <h2 class="banana-card__title">Red Banana</h2>
+            <p class="banana-card__text">Красно-бордовая кожура, кремовая мякоть и более глубокий аромат. Создает яркий акцент в фруктовой тарелке.</p>
+            <p class="banana-card__fact">Факт: спелость заметна по потемнению кожуры и мягкости плода.</p>
+          </div>
+        </article>
+        <article class="banana-card banana-card--large" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-plantain.svg" alt="Плантан">
+          <div class="banana-card__body">
+            <p class="banana-card__tag">Для готовки</p>
+            <h2 class="banana-card__title">Plantain</h2>
+            <p class="banana-card__text">Более крахмалистый банан, который обычно жарят, запекают или добавляют в горячие блюда.</p>
+            <p class="banana-card__fact">Факт: зеленый Plantain ближе к овощному гарниру, а спелый становится мягче и слаще.</p>
+          </div>
+        </article>
+        <article class="banana-card banana-card--large" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-blue-java.svg" alt="Банан Blue Java">
+          <div class="banana-card__body">
+            <p class="banana-card__tag">Десертный вайб</p>
+            <h2 class="banana-card__title">Blue Java</h2>
+            <p class="banana-card__text">Сорт с прохладным голубоватым оттенком кожуры в незрелом виде и нежной кремовой мякотью.</p>
+            <p class="banana-card__fact">Факт: его часто называют ice cream banana за ванильно-кремовую ассоциацию.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__logo">BANANA</p>
+    <p class="footer__text">Сорта, факты и солнечная фруктовая эстетика.</p>
+    <div class="footer__socials" aria-label="Социальные сети">
+      <a class="footer__social" href="contacts.html">IG</a>
+      <a class="footer__social" href="contacts.html">VK</a>
+      <a class="footer__social" href="contacts.html">TG</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
