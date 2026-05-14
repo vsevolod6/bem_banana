@@ -1,0 +1,17 @@
+@import url("./base/variables.css");
+@import url("./base/reset.css");
+@import url("./base/animations.css");
+
+@import url("./blocks/background.css");
+@import url("./blocks/header.css");
+@import url("./blocks/section.css");
+@import url("./blocks/button.css");
+@import url("./blocks/glass-card.css");
+@import url("./blocks/banana-card.css");
+@import url("./blocks/form.css");
+@import url("./blocks/footer.css");
+
+@import url("./pages/home.css");
+@import url("./pages/catalog.css");
+@import url("./pages/contacts.css");
+@import url("./pages/adaptive.css");
