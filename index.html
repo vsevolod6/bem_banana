@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Banana Pixel Club - яркий тропический сайт о бананах, сортах, пользе и фруктовом настроении.">
+  <title>Banana Pixel Club | Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <div class="background" aria-hidden="true">
+    <span class="background__pixel background__pixel--one"></span>
+    <span class="background__pixel background__pixel--two"></span>
+    <span class="background__pixel background__pixel--three"></span>
+  </div>
+
+  <header class="header">
+    <a class="header__logo" href="index.html" aria-label="Banana Pixel Club">BANANA</a>
+    <nav class="header__nav" aria-label="Основная навигация">
+      <a class="header__link header__link--active" href="index.html">Главная</a>
+      <a class="header__link" href="bananas.html">Виды</a>
+      <a class="header__link" href="contacts.html">Контакты</a>
+    </nav>
+    <button class="header__toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+      <span class="header__toggle-line"></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero__content" data-animate>
+        <p class="section__eyebrow">Tropical pixel mood</p>
+        <h1 class="hero__title">Бананы, которые улыбаются первыми</h1>
+        <p class="hero__text">Солнечный клуб о сортах, пользе и маленьких фруктовых ритуалах. Кремовая легкость, зеленые акценты и настроение теплого острова.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="bananas.html">Смотреть виды</a>
+          <a class="button button--ghost" href="#facts">Узнать факты</a>
+        </div>
+      </div>
+      <div class="hero__visual" data-animate data-parallax="0.035">
+        <img class="hero__image" src="images/banana/banana-hero.svg" alt="Пиксельная связка бананов на зеленом круге">
+        <span class="hero__bubble hero__bubble--top">K+</span>
+        <span class="hero__bubble hero__bubble--bottom">B6</span>
+      </div>
+      <div class="floaters" aria-hidden="true">
+        <span class="floaters__item floaters__item--one">banana</span>
+        <span class="floaters__item floaters__item--two">sweet</span>
+      </div>
+    </section>
+
+    <section class="facts section" id="facts">
+      <div class="section__header" data-animate>
+        <p class="section__eyebrow">Факты и польза</p>
+        <h2 class="section__title">Мягкая энергия на каждый день</h2>
+        <p class="section__lead">Бананы легко брать с собой, добавлять в завтраки и использовать в десертах без лишнего сахара.</p>
+      </div>
+      <div class="facts__grid">
+        <article class="facts__item glass-card" data-animate>
+          <span class="facts__icon">01</span>
+          <h3 class="facts__title">Быстрый перекус</h3>
+          <p class="facts__text">Спелый банан дает мягкую сладость и помогает закрыть паузу между учебой, работой или прогулкой.</p>
+        </article>
+        <article class="facts__item glass-card" data-animate>
+          <span class="facts__icon">02</span>
+          <h3 class="facts__title">Тропический вкус</h3>
+          <p class="facts__text">Фрукт дружит с йогуртом, овсянкой, какао, арахисовой пастой и цитрусовыми нотами.</p>
+        </article>
+        <article class="facts__item glass-card" data-animate>
+          <span class="facts__icon">03</span>
+          <h3 class="facts__title">Настроение цвета</h3>
+          <p class="facts__text">Желтая палитра визуально делает интерфейс теплее, легче и дружелюбнее для ежедневного просмотра.</p>
+        </article>
+        <article class="facts__item glass-card" data-animate>
+          <span class="facts__icon">04</span>
+          <h3 class="facts__title">Не один сорт</h3>
+          <p class="facts__text">Помимо привычного Cavendish есть красные, зеленые, мини-бананы и десертный Blue Java.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase section">
+      <div class="section__header" data-animate>
+        <p class="section__eyebrow">Популярные виды</p>
+        <h2 class="section__title">Фруктовая витрина</h2>
+      </div>
+      <div class="showcase__grid">
+        <article class="banana-card banana-card--showcase" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-cavendish.svg" alt="Банан Cavendish">
+          <div class="banana-card__body">
+            <h3 class="banana-card__title">Cavendish</h3>
+            <p class="banana-card__text">Классический сладкий сорт для смузи, перекусов и бананового хлеба.</p>
+          </div>
+        </article>
+        <article class="banana-card banana-card--showcase" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-red.svg" alt="Красный банан">
+          <div class="banana-card__body">
+            <h3 class="banana-card__title">Red Banana</h3>
+            <p class="banana-card__text">Насыщенный вкус с ягодной глубиной и теплым оранжевым оттенком мякоти.</p>
+          </div>
+        </article>
+        <article class="banana-card banana-card--showcase" data-animate>
+          <img class="banana-card__image" src="images/banana/banana-blue-java.svg" alt="Банан Blue Java">
+          <div class="banana-card__body">
+            <h3 class="banana-card__title">Blue Java</h3>
+            <p class="banana-card__text">Десертный сорт с кремовой текстурой, который часто сравнивают с мороженым.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="home-grid">
+        <section class="reviews glass-card" aria-labelledby="reviews-title" data-animate>
+          <p class="section__eyebrow">Отзывы</p>
+          <h2 class="reviews__title" id="reviews-title">Любят за простоту</h2>
+          <blockquote class="reviews__quote">"Сайт выглядит как солнечная открытка: быстро нашел сорта и вдохновился завтраком с бананом."</blockquote>
+          <p class="reviews__author">Мила, food-дизайнер</p>
+        </section>
+        <section class="subscribe glass-card" aria-labelledby="subscribe-title" data-animate>
+          <p class="section__eyebrow">Подписка</p>
+          <h2 class="subscribe__title" id="subscribe-title">Фруктовые новости</h2>
+          <form class="form subscribe__form" data-form>
+            <label class="form__label" for="subscribe-email">Email</label>
+            <div class="form__row">
+              <input class="form__input" id="subscribe-email" name="email" type="email" placeholder="sun@banana.club" required>
+              <button class="button button--primary" type="submit">Подписаться</button>
+            </div>
+            <p class="form__status" role="status"></p>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__logo">BANANA</p>
+    <p class="footer__text">Pixel tropical concept for banana lovers.</p>
+    <div class="footer__socials" aria-label="Социальные сети">
+      <a class="footer__social" href="contacts.html">IG</a>
+      <a class="footer__social" href="contacts.html">VK</a>
+      <a class="footer__social" href="contacts.html">TG</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
